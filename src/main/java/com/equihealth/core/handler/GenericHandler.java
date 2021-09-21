@@ -19,7 +19,7 @@ public class GenericHandler
     try {
       Injector injector = Guice.createInjector(new AppInjector());
       PriceMeApp app = injector.getInstance(PriceMeApp.class);
-       app.getPriceList(request);
+       response=app.getPriceList(request);
     }
     catch(Exception exception)
     {
