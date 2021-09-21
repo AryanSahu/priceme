@@ -14,6 +14,7 @@ The project defines an api `/price` resource that can accept `POST` requests wit
 
 ## Building the project
 You can use the Maven to quickly build the project
+
 $ cd priceme
 
 $ mvn  package
@@ -32,9 +33,13 @@ $ mvn  package
 ### Deploying the project
 COMMAND -- sls deploy -v
 
+
 --------- *****  Deployment output *** -------
+
 endpoints:
+
   POST - https://4mjxomubfl.execute-api.us-east-1.amazonaws.com/dev/price
+  
 functions:
   pricemeapi: price-api-v1-dev-pricemeapi
   priceme: price-api-v1-dev-priceme
