@@ -11,7 +11,7 @@ The project defines an api `/price` resource that can accept `POST` requests wit
 
 
 ## Cloning and building the project
-You can use the Maven to quickly build the project
+>.You can use the Maven to quickly build the project
 
 $ ``` cd priceme ```
 
@@ -25,12 +25,12 @@ COMMAND -- ``` sls deploy -v ```
 
 COMMAND -- ``` serverless invoke -f priceme -d 'lemon 53 405' ```
 
-OUTPUT -- "[IN  22060.100000000002 |54.42*405+20.0, HN  21999.2 |54.24*405+32.0]"
+>. OUTPUT -- "[IN  22060.100000000002 |54.42*405+20.0, HN  21999.2 |54.24*405+32.0]"
 
 
 ###  Rest End Point testing
 ``` curl -H "Content-Type: application/json" -X POST -d '{"commodityName":"lemon","pricePerTon":"53","volumeInTons":"45"}' https://4mjxomubfl.execute-api.us-east-1.amazonaws.com/dev/price ```
 
-OUTPUT -- "[IN  22060.100000000002 |54.42*405+20.0, HN  21999.2 |54.24*405+32.0]"
+>. OUTPUT -- "[IN  22060.100000000002 |54.42*405+20.0, HN  21999.2 |54.24*405+32.0]"
 
 
