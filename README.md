@@ -7,7 +7,6 @@ The project defines an api `/price` resource that can accept `POST` requests wit
 ## Pre-requisites
 * [AWS CLI](https://aws.amazon.com/cli/)
 * [Serverles](https://www.serverless.com/)
-* Install ---  npm install -g serverless)
 * [Maven](https://maven.apache.org/)
 
 
