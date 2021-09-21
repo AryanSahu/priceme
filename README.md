@@ -1,7 +1,4 @@
 ## PriceMe APP
-The price me app was created with [`aws-serverless-java-container`](https://github.com/awslabs/aws-serverless-java-container).
-
-
 The project defines an api `/price` resource that can accept `POST` requests with its tests.
 
 # Pre-requisites
