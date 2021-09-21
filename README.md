@@ -27,14 +27,13 @@ $ mvn  package
 
 
 
-Commands you can use next
+### Commands you can use next
 =========================
 [*] Invoke Function: serverless invoke -f priceme -d 'lemon 53 405'
 [*] Deploy: AWS_SDK_LOAD_CONFIG=1 sls deploy -v
 [*] Please generate your access and secret key and configure before running serveless command
 [*]Serverless
 [*]Configure  correct values for your region in serverless.yml before deploying the app
-```
 
 ### Deploying the project
 COMMAND -- sls deploy -v
