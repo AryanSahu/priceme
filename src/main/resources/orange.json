@@ -1,0 +1,14 @@
+[
+  {
+    "COUNTRY":"CH",
+    "COMMODITY_NAME":"orange",
+    "FIXED_OVERHEAD":"22.00",
+    "VAR_OVERHEAD":"1.21"
+  },
+  {
+    "COUNTRY":"BZ",
+    "COMMODITY_NAME":"orange",
+    "FIXED_OVERHEAD":"20.00",
+    "VAR_OVERHEAD":"1.42"
+  }
+]
